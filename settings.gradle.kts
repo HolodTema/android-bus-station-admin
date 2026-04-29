@@ -24,4 +24,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "bus-station"
 include(":app")
- 
+include(":core:model")
+include(":core:network")
+include(":core:common")
+include(":core:designsystem")
+include(":feature:auth")
+include(":feature:admin:dashboard")
+include(":feature:driver:dashboard")
